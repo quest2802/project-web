@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation
+{
+    background-color: #2d2c2c;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+   
+}
+.navigation a{
+    padding: 1em 1em 1em 1em;
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo{
+    width: 2000px;
+    height: 400px;
+}
+
+.logo1 img{
+    width: 250px;
+    height: 250px;
+}
+
+.slideshow-container {
+    max-width: 10000px;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides .background{
+    height: 500px;
+    opacity: .8;
+    width: 100%;
+    box-shadow: 0px 5px 2px 8px rgb(41, 41, 41);
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.logo {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+    width: 100%;
+}
+
+.logo img{
+    width: 300px;
+}
+
+.dots{
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+    width: 100%;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #fff;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.content{
+    background-image: url("../Asset/360_F_145456063_s25M3K6QWRBHqEM3E3Zkf69zkws8zblh.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .sauce_all{
+    padding-top: 30px;
+}
+
+.content .sauce_all h1{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+
+.content .steak h1{
+    font-size: 40px;
+    color: white;
+}
+
+.sauce .sauce_type{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.sauce .sauce_type img{
+    width : 150px;
+    height : 120px;
+}
+
+.sauce{
+    display: flex;
+    flex-direction: row;
+}
+
+.steak img{
+    width : 300px;
+    height : 300px;
+    margin-left: 30px;
+}
+
+.steak{
+    display: flex;
+    align-items: center;
+}
+
+.social img{
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+footer{
+    background-color:  rgb(54, 53, 53);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+
+@media only screen and (max-width:700px){
+    .navigation{
+        font-size: 12px;
+    }
+
+    .logo{
+        height: 400px;
+    }
+
+    .logo img{
+        width: 250px;
+    }
+
+    .content .sauce_all{
+        padding-top: 10px;
+    }
+
+    .content .sauce_all h1{
+        font-size: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    .content .steak h1{
+        font-size: 8px;
+        color: white;
+    }
+    
+    .sauce .sauce_type{
+        margin-left:5px;
+        margin-top: 10px;
+    }
+    
+    .sauce .sauce_type img{
+        width : 55px;
+        height : 30px;
+    }
+    
+    .sauce{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .steak img{
+        width : 45px;
+        height : 45px;
+        margin-left: 10px;
+    }
+    
+    .social img{
+        width: 15px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    
+    footer{
+        background-color:  rgb(54, 53, 53);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+        font-size: 10px;
+    }
+
+}

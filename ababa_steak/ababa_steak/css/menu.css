@@ -1,0 +1,391 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation
+{
+    background-color: #2d2c2c;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.navigation a{
+    padding: 1em 1em 1em 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.content-title
+{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    color: white;
+}
+
+.component-container
+{
+    padding-top: 2%;
+    background-image: url(../Asset/bg.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container
+{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: black;
+    margin-bottom: 3%;
+}
+
+.picture
+{
+    display: flex;
+    justify-content: center;
+}
+
+.picture img
+{
+    width: 200vh;
+    height: 200vh;
+}
+
+.desc
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.price
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#image1
+{
+    
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/ribeye\ steak.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image2
+{   
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/sirloin\ steak.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image3
+{   
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/steak\ tenderloin.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image4
+{   
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/tbone\ steak.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image5
+{   
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/wagyu\ steak.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image6
+{   
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/chicken\ steak.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image7
+{   
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/fish\ steak.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image8
+{   
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/lamb\ steak.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image9
+{   
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/kentang.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image10
+{   
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/mac\ n\ cheese.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image11
+{   
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/jus\ alpukat.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image12
+{   
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/watermelon\ juice.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image13
+{   
+    width: 35vh;
+    height: 45vh;
+    background-image: url(../Asset/lychee\ tea.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social img{
+    width: 8.210180623973727vh;
+    height: 6.568144499178982vh;
+    margin-right: 10px;
+}
+
+footer{
+    background-color:  rgb(54, 53, 53);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+@media only screen and (max-width:700px){
+    .navigation{
+        font-size: 12px;
+    }
+
+    .content-title
+    {
+        font-size: 5px;
+    }
+
+    .desc
+    {
+        font-size: 5px;
+    }
+
+    .price
+    {
+        font-size: 5px;
+    }
+
+    
+    #image1
+    {
+        
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/ribeye\ steak.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image2
+    {   
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/sirloin\ steak.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image3
+    {   
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/steak\ tenderloin.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image4
+    {   
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/tbone\ steak.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image5
+    {   
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/wagyu\ steak.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image6
+    {   
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/chicken\ steak.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image7
+    {   
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/fish\ steak.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image8
+    {   
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/lamb\ steak.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image9
+    {   
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/kentang.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #image10
+    {   
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/mac\ n\ cheese.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #image11
+    {   
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/jus\ alpukat.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image12
+    {   
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/watermelon\ juice.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image13
+    {   
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/lychee\ tea.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+    .social img{
+        width: 15px;
+        height: 10px;
+        margin-right: 5px;
+    }
+
+    footer{
+        background-color:  rgb(54, 53, 53);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+        font-size: 10px;
+    }
+}

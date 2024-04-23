@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation
+{
+    background-color: #2d2c2c;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+   
+}
+.navigation a{
+    padding: 1em 1em 1em 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.contentreserv
+{   
+    display: flex;
+    background-image: url(../Asset/bgreserv.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+    color: white;
+    
+}
+
+.reserv
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(19, 4, 4);
+    color: white;
+    
+}
+
+.forms
+{
+    padding: 10px;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.social img{
+    width: 8.210180623973727vh;
+    height: 6.568144499178982vh;
+    margin-right: 10px;
+}
+
+footer{
+    background-color:  rgb(54, 53, 53);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+@media only screen and (max-width:700px){
+    .navigation{
+        font-size: 12px;
+    }
+    
+    .reserv
+    {   
+        padding-top: 40px;
+        font-size: 10px;    
+        height: 100px;
+    }
+    
+    .contentreserv
+    {   
+        width: 500px;
+        height:325px;
+        background-size: 100%;
+        font-size: 15px;
+    }
+    
+    .social img{
+        width: 15px;
+        height: 10px;
+        margin-right: 5px;
+    }
+
+    footer{
+        background-color:  rgb(54, 53, 53);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navigation">
+            <a href="../html/homepage.html">Home</a>
+            <a href="../html/menu.html">Menu</a>
+            <a href="../html/promo.html">Promo</a>
+            <a href="../html/about_us.html">About Us</a>
+            <a href="../html/reservation.html">Reservation</a>
+        </div>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="../Asset/248454.jpg" class="background">
+                <div class="logo">
+                    <img src="../Asset/logo1.png" alt="">
+                </div>
+                <div class="dots">
+                    <span class="dot active" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="../Asset/196512.jpg" class="background">
+              <div class="logo">
+                <img src="../Asset/logo1.png" alt="">
+              </div>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot active" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="../Asset/walpaper.jpg" class="background">
+                <div class="logo">
+                    <img src="../Asset/logo1.png" alt="">
+                </div>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot active" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+    <div class = "content">
+        <div class= "sauce_all">
+            <h1>SAUCE</h1>
+            <div class= "sauce">
+                <div class= "sauce_type">
+                    <img src="../Asset/garlic sauce.jpg" alt="">
+                    <h1>Garlic</h1>
+                </div>
+                <div class= "sauce_type">
+                    <img src="../Asset/66111724-black-pepper-sauce-in-white-bowl-over-wooden-background.jpg" alt=""> 
+                    <h1>Black Pepper</h1>
+                </div>
+                <div class= "sauce_type">
+                    <img src="../Asset/easy-creamy-mushroom-sauce-1-2.jpg" alt="">
+                    <h1>Mushroom</h1>
+                </div>
+                <div class= "sauce_type">
+                    <img src="../Asset/thumb-1920-665472.jpg" alt=""> 
+                    <h1>Barbeque</h1>
+                </div>   
+            </div>
+        </div>
+        
+        <div class= "steak">
+            <div class="steak_text">
+                <h1>STEAK</h1>
+                <h1>DONENESS</h1> 
+            </div>
+            <img src="../Asset/133527-kuliner-webp-vertical-large.jpg" alt=""> 
+        </div>
+        
+    </div>
+    <footer>
+        <p>Copyright &copy; 2021 ABABA Steak-All Right Reserved</p>
+        <div class="social">
+            <a href="https://www.youtube.com/"><img src="../Asset/unnamed.png" alt=""></a>
+            <a href="http://facebook.com"><img src="../Asset/white-facebook-icon-png-8.png" alt=""></a>
+            <a href="http://instagram.com"><img src="../Asset/ee7b110cd6fbc0b88d4977a60b4ee8a2.png" alt=""></a>
+        </div>
+    </footer>
+    <script src="../jquery/JQuery.js"></script>
+    <script src="../jquery/homepage.js"></script>
+</body>
+</html>

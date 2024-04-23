@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation
+{
+    background-color: #2d2c2c;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+   
+}
+.navigation a{
+    padding: 1em 1em 1em 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    background: url("../Asset/steak_vegetables_rolls_dinner_delicious_71438_1280x720.jpg");
+    background-size: 100%;
+    height: 50vh;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content2{
+    text-align: center;
+    font-size: 6ch;
+    font-family: Impact;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    align-content: center;
+    background-color:white;
+    justify-content: center;
+    color: rgb(58, 119, 58);
+}
+.contentdescription2{
+    text-align: center;
+    font-size: 3ch;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: black;
+}
+.contentbackground2{
+    background: url(../Asset/istockphoto-479203896-612x612.jpg);
+    background-size: 100%;
+    height: 100vh;
+    width: 225vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.component-container
+{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container
+{
+    background-color: white;
+    padding-left: 2;
+    padding-right: 2%;
+}
+
+.picture
+{
+    display: flex;
+    justify-content: center;
+}
+
+.picture img
+{
+    width: 200ph;
+    height: 200ph;
+}
+
+.desc
+{
+    font-family: 'Arial Narrow Bold';
+    font-size: 2.5ch;
+    color:black;
+    text-align: center;
+}
+
+.desc2
+{
+    font-size: 2ch;
+    color: rgb(63, 62, 62);
+    text-align: center;
+}
+
+#image1
+{
+    width: 35vh;
+    height: 35vh;
+    background-image: url(../Asset/mac\ n\ cheese.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#image2
+{
+    width: 35vh;
+    height: 35vh;
+    background-image: url(../Asset/chicken\ steak.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#image3
+{
+    width: 35vh;
+    height: 35vh;
+    background-image: url(../Asset/196512.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image4
+{
+    width: 35vh;
+    height: 35vh;
+    background-image: url(../Asset/tbone\ steak.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social img{
+    width: 8.210180623973727vh;
+    height: 6.568144499178982vh;
+    margin-right: 10px;
+}
+
+footer{
+    background-color:  rgb(54, 53, 53);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+@media only screen and (max-width:700px){
+    .navigation{
+        font-size: 12px;
+    }
+
+    .content2{
+        font-size: 25px;
+    }
+
+    .contentdescription2{
+        font-size: 15px;
+    }
+
+    .contentbackground2{
+        height: 300px;
+        width: 455px;
+    }
+
+    .desc
+    {
+        font-size: 10px;
+    }
+
+    .desc2
+    {
+        font-size: 10px;
+    }
+
+    #image1
+    {
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/mac\ n\ cheese.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #image2
+    {
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/chicken\ steak.jpg);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image3
+    {
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/196512.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #image4
+    {
+        width: 70px;
+        height: 60px;
+        background-image: url(../Asset/tbone\ steak.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .social img{
+        width: 15px;
+        height: 10px;
+        margin-right: 5px;
+    }
+
+    footer{
+        background-color:  rgb(54, 53, 53);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+        font-size: 10px;
+    }
+}
